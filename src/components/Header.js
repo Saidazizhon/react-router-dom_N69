@@ -5,7 +5,7 @@ const Header = () => {
         <div className="flex items-center">
           <span className="mr-4">Jones Ferdinand</span>
           <img
-            src="profile-image-url" // Profil rasmini qo'shing
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJIwASCJpICHRbFDOQXQ2S-pmikc8vs6K2GA&s"
             alt="profile"
             className="rounded-full w-8 h-8"
           />

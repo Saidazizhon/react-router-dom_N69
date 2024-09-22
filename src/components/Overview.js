@@ -21,19 +21,16 @@ const Overview = () => {
         </div>
       </div>
 
-      {/* O'rtadagi grafika bo'limi */}
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h3 className="text-lg font-semibold mb-2 border-b-2 border-yellow-400 inline-block">Today's trends</h3>
         <p className="text-gray-600 text-sm">as of 25 May 2019, 09:41 PM</p>
-        {/* Grafik yoki tasvir joyi */}
+
         <div className="mt-6">
-          {/* Grafik joyiga joylashtiriladigan komponent */}
+
         </div>
       </div>
 
-      {/* Quyidagi ma'lumotlar va vazifalar bo'limi */}
       <div className="grid grid-cols-2 gap-6">
-        {/* Unresolved tickets bo'limi */}
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h3 className="text-lg font-semibold mb-4">Unresolved tickets</h3>
           <ul className="space-y-4">
@@ -56,7 +53,7 @@ const Overview = () => {
           </ul>
         </div>
 
-        {/* Tasks bo'limi */}
+        
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h3 className="text-lg font-semibold mb-4">Tasks</h3>
           <div className="space-y-4">

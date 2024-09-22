@@ -15,7 +15,6 @@ const Sidebar = () => {
             Tickets
           </Link>
         </li>
-        {/* Boshqa havolalar qo'shing: Ideas, Contacts va boshqalar */}
       </ul>
     </div>
   );

@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 import Header from "./components/Header";
 import Overview from "./components/Overview";
 import Tickets from "./components/Tickets";
-import NotFound from "./components/NotFound"; // NotFound import qilindi
+import NotFound from "./components/NotFound";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Overview />} />
             <Route path="/tickets" element={<Tickets />} />
-            <Route path="*" element={<NotFound />} /> {/* Yo'q sahifa uchun NotFound komponenti */}
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
